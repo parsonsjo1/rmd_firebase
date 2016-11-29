@@ -1,0 +1,39 @@
+.cover {
+	height: 1000px;
+	width: 100%;
+		
+	.cover-box {
+		height: 250px;
+		
+		background-color: #333;
+		border-radius: 5px;
+		margin-top: 15%;
+		position: relative;
+		font-family: 'Source Sans Pro', sans-serif;
+
+		.header-row {
+			text-align: center;
+			color: white;
+		}
+
+		.button-row {
+			position: absolute;
+			bottom: 0;
+			padding-bottom: 20px;
+			width: 100%;
+
+			button {
+				height: 50px;
+				width: 100%;
+				
+				font-size: 2em;
+
+				border-radius: 5px;
+				background-color: yellow;
+				border-style: none;
+			}
+
+		}
+
+	}
+}

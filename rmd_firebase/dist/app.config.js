@@ -1,1 +1,1 @@
-angular.module("rmd").config(["$locationProvider","$routeProvider",function(e,l){e.hashPrefix("!"),l.when("/hello",{template:"<hello></hello>"}).when("/search",{template:"<search></search>"}).otherwise("/hello")}]);
+angular.module("rmd").config(["$locationProvider","$routeProvider",function(e,t){e.hashPrefix("!"),t.when("/home",{template:"<home></home>"}).when("/demo",{template:"<demo></demo>"}).when("/rent",{template:"<rent></rent>"}).when("/reserve",{template:"<rent></rent>"}).otherwise("/home")}]);

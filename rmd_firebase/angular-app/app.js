@@ -4,18 +4,30 @@
 
 var rmdModule = angular.module('rmd',['ngRoute']);
 
-rmdModule.component('hello', {
-	template: '<div>' +
-			  'Hello {{$ctrl.name}}' +
-			  '</div>',
+rmdModule.component('home', {
+	templateUrl: 'home/home.template.html',
 	controller: function() {
-		this.name = 'Josh';
+		this.message = 'Welcome to the Homepage';
 	}
 });
 
-rmdModule.component('search', {
-	templateUrl: './tests/hello.template.html',
+rmdModule.component('demo', {
+	templateUrl: 'demo/demo.template.html',
 	controller: function() {
-		this.name = 'Josh';
+		
+	}
+});
+
+rmdModule.component('rent', {
+	templateUrl: '/rent/rent.template.html',
+	controller: function() {
+		this.name = 'Rent';
+	}
+});
+
+rmdModule.component('reserve', {
+	templateUrl: '/reserve/reserve.template.html',
+	controller: function() {
+		this.name = 'Reserve';
 	}
 });

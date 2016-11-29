@@ -1,0 +1,53 @@
+.cover {
+	height: 1000px;
+	width: 100%;
+		
+	.rent-box {
+		height: 400px;
+		width: 50%;
+		
+		background-color: #333;
+		border-radius: 5px;
+		margin-top: 15%;
+		position: relative;
+		font-family: 'Source Sans Pro', sans-serif;
+
+
+		.rent-container {
+			width: 100%;
+
+			input {
+				height: 50px;
+				width: 100%;
+
+				font-size: 2em;
+
+				border-radius: 5px;
+				background-color: white;
+				border-style: none;
+
+				margin-bottom: 10px;
+				margin-top: 20px;
+
+
+			}
+		}
+
+		button {
+			height: 50px;
+			width: 100%;
+
+			font-size: 2em;
+
+			border-radius: 5px;
+			background-color: yellow;
+			border-style: none;
+
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+
+
+
+	}
+}

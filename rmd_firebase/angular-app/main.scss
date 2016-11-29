@@ -1,6 +1,22 @@
 @import 'colors';
 
 body {
-	background-color: $primary-color;
+	background-image: url("./../img/cover.jpg");
+	background-position: center;
+}
 
+button {
+	font-family: 'Lobster', cursive;
+	color: black;
+
+	height: 50px;
+	width: 50%;
+
+	font-size: 2em;
+
+	border-radius: 5px;
+	background-color: yellow;
+	border-style: none;
+
+	margin-bottom: 10px;	
 }

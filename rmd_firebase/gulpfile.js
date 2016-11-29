@@ -24,6 +24,11 @@ gulp.task('copy-html', function() {
 	.pipe(browserSync.stream());
 });
 
+gulp.task('copy-img', function() {
+	return gulp.src('./angular-app/**/**/*.jpg')
+	.pipe(gulp.dest('./dist'))
+	.pipe(browserSync.stream());
+});
 
 gulp.task('sass', function() {
 	return gulp.src('./angular-app/**/*.scss')
@@ -48,8 +53,8 @@ gulp.task('compress', function (cb) {
   );
 });
 
-gulp.task('default',['copy-html', 'minify-css', 'compress', 'browser-sync'], function() {
+gulp.task('default',['copy-html', 'copy-img', 'minify-css', 'compress', 'browser-sync'], function() {
 	gulp.watch('./angular-app/**/*.html', ['copy-html']);
-	gulp.watch('./angular-app/**/*.scss', ['minify-css']);
+	gulp.watch('./angular-app/**/*.scss', ['sass','minify-css']);
 	gulp.watch('./angular-app/**/*.js', ['compress']);
 });

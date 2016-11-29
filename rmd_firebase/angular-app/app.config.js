@@ -5,12 +5,18 @@ angular.
       $locationProvider.hashPrefix('!');
 
       $routeProvider.
-        when('/hello', {
-          template: '<hello></hello>'
+        when('/home', {
+          template: '<home></home>'
         }).
-        when('/search', {
-          template: '<search></search>'
+        when('/demo', {
+          template: '<demo></demo>'
+        }).        
+        when('/rent', {
+          template: '<rent></rent>'
         }).
-        otherwise('/hello');
+        when('/reserve', {
+          template: '<rent></rent>'
+        }).
+        otherwise('/home');
       }
     ]);
