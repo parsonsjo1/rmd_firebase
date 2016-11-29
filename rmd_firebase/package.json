@@ -1,0 +1,28 @@
+{
+  "name": "rmd_firebase",
+  "version": "1.0.0",
+  "description": "reserve my driveway with firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsonsjo1/rmd_firebase.git"
+  },
+  "author": "Josh P.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parsonsjo1/rmd_firebase/issues"
+  },
+  "homepage": "https://github.com/parsonsjo1/rmd_firebase#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "pump": "^1.0.1"
+  }
+}
